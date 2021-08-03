@@ -12,17 +12,17 @@ var UniMilliSec = dateToday.getTime()
 
 var library = [
 {
-  author: 'Bill Gates',
+    author: 'Bill Gates',
     title: 'The Road Ahead',
     readingStatus: true
 },
 {
-  author: 'Steve Jobs',
+    author: 'Steve Jobs',
     title: 'Walter Isaacson',
     readingStatus: true
 },
 {
-  author: 'Suzanne Collins',
+    author: 'Suzanne Collins',
     title: 'Mockingjay: The Final Book of The Hunger Games',
     readingStatus: false
 }];
@@ -101,7 +101,7 @@ print(empDetail); // console.log(empDetail) for debugging
 // Question 9
 
 const gimli = {
-  name: "Gimli",
+    name: "Gimli",
     race: "dwarf",
     weapon: "axe",
     greet: function() { 
